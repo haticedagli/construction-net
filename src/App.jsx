@@ -1,27 +1,40 @@
-import { useState } from 'react'
-import constructionLogo from './assets/construction.png'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import components
+import Hero from "./components/Hero";
+import Navbar from "./Layouts/Navbar";
+import Skills from "./components/Skills";
+import Service from "./components/Services";
+import Projects from "./components/Projects";
+import Testimonials from "./components/Testimonials";
+import Hireme from "./components/Hireme";
+import Contact from "./components/Contact";
+import { useEffect } from "react";
+// Animation package
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 100,
+      disable: "mobile",
+    });
+  }, []);
   return (
-    <>
-      <div>
-        <img src={constructionLogo} className="logo" alt="Vite logo" />
-      </div>
-      <h1>Sur İnşaat Fileleri</h1>
-      <div className="card">
-        <p>
-          Çok yakında sizinle burada buluşuyor olacağız
-        </p>
-      </div>
-      <p className="read-the-docs">
-        <p><a href="mailto:surinsaatfileleri@gmail.com">Mail göndermek için tıkla</a></p>
-      </p>
-    </>
-  )
-}
+    <div className="">
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Service />
+      <Projects />
+      <Testimonials />
+      <Contact />
+      <footer className="p-3 text-center">
+        <h6 className="mb-3">SUR GÜVENLİK FİLELERİ</h6>
+        <p>© All CopyRights Reserved 2024</p>
+      </footer>
+    </div>
+  );
+};
 
-export default App
+export default App;
