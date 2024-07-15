@@ -14,7 +14,7 @@ function App() {
       <h1>Sur İnşaat Fileleri</h1>
       <div className="card">
         <p>
-          Çok yakında sizinle burada buluşuyor olucaz.
+          Çok yakında sizinle burada buluşuyor olacağız
         </p>
       </div>
       <p className="read-the-docs">
