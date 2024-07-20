@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_3bbu02m', 'template_ip48qzz', form.current, 'UeyDyunDHVmcqEndE'
       )
       .then(
         (result) => {
@@ -61,6 +61,14 @@ const Contact = () => {
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
               placeholder="Email"
+              required
+              className="border border-slate-600 p-3 rounded"
+            />
+            <input
+              type="phonenumber"
+              name="phone_number"
+              pattern="[0-9]*"
+              placeholder="Telefon Numarası"
               required
               className="border border-slate-600 p-3 rounded"
             />

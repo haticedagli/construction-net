@@ -1,7 +1,7 @@
 // import content
 import { useEffect } from "react";
+import { useState } from "react";
 import { content } from "../Content";
-import Workers from "../assets/images/Hero/insaat-guvenlik_filesi.jpg"
 
 const Hero = () => {
   const { hero } = content;
@@ -25,7 +25,9 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <a href="#contact">
+              <button className="btn">{hero.btnText}</button>
+            </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (

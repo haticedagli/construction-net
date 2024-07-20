@@ -1,13 +1,6 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
 import Workers from "./assets/images/Hero/workers.png"
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
 import baret from "./assets/images/Skills/baret.png";
 import socker from "./assets/images/Skills/socker.png";
 import bird from "./assets/images/Skills/bird.png";
@@ -15,33 +8,52 @@ import halisaha from "./assets/images/Skills/halisaha.png";
 import sera from "./assets/images/Skills/sera.png";
 import star from "./assets/images/Skills/star.png";
 
-
-import services_logo1 from "./assets/images/Services/logo1.png";
-import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
 import time from "./assets/images/Services/time.png";
 import shield from "./assets/images/Services/shield.png";
 import meter from "./assets/images/Services/meter.png";
 import tick from "./assets/images/Services/tick.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
 import worker2 from "./assets/images/projects/worker2.png";
-import proje1 from "./assets/images/projects/proje1.png";
-import proje2 from "./assets/images/projects/proje2.png";
-import proje3 from "./assets/images/projects/proje3.png";
-import proje4 from "./assets/images/projects/proje4.png";
-import proje5 from "./assets/images/projects/proje5.png";
+
+import net1 from "./assets/images/projects/net1.jpeg";
+import net2 from "./assets/images/projects/net2.jpeg";
+import net3 from "./assets/images/projects/net3.jpeg";
+import net4 from "./assets/images/projects/net4.jpeg";
+import net5 from "./assets/images/projects/net5.jpeg";
+import net6 from "./assets/images/projects/net6.jpeg";
+import net7 from "./assets/images/projects/net7.jpeg";
+import net8 from "./assets/images/projects/net8.jpeg";
+import net9 from "./assets/images/projects/net9.jpeg";
+import net10 from "./assets/images/projects/net10.jpeg";
+import net11 from "./assets/images/projects/net11.jpeg";
+import net12 from "./assets/images/projects/net12.jpeg";
+import net13 from "./assets/images/projects/net13.jpeg";
+import net14 from "./assets/images/projects/net14.jpeg";
+import net15 from "./assets/images/projects/net15.jpeg";
+import net16 from "./assets/images/projects/net16.jpeg";
+import net17 from "./assets/images/projects/net17.jpeg";
+import net18 from "./assets/images/projects/net18.jpeg";
+import net19 from "./assets/images/projects/net19.jpeg";
+import net20 from "./assets/images/projects/net20.jpeg";
+import net21 from "./assets/images/projects/net21.jpeg";
+import net22 from "./assets/images/projects/net22.jpeg";
+import net23 from "./assets/images/projects/net23.jpeg";
+import net24 from "./assets/images/projects/net24.jpeg";
+import net25 from "./assets/images/projects/net25.jpeg";
+import net26 from "./assets/images/projects/net26.jpeg";
+import net27 from "./assets/images/projects/net27.jpeg";
+import net28 from "./assets/images/projects/net28.jpeg";
+import net29 from "./assets/images/projects/net29.jpeg";
+import net30 from "./assets/images/projects/net30.jpeg";
+import net31 from "./assets/images/projects/net31.jpeg";
+import net32 from "./assets/images/projects/net32.jpeg";
+import net33 from "./assets/images/projects/net33.jpeg";
+import net34 from "./assets/images/projects/net34.jpeg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -161,25 +173,141 @@ export const content = {
     image: worker2,
     project_content: [
       {
-        title: "1",
-        image: proje1,
+          title: 1,
+          image: net1
       },
       {
-        title: "2",
-        image: proje2,
+          title: 2,
+          image: net2
       },
       {
-        title: "3",
-        image: proje3,
+          title: 3,
+          image: net3
       },
       {
-        title: "4",
-        image: proje4,
+          title: 4,
+          image: net4
       },
       {
-        title: "5",
-        image: proje5,
+          title: 5,
+          image: net5
       },
+      {
+          title: 6,
+          image: net6
+      },
+      {
+          title: 7,
+          image: net7
+      },
+      {
+          title: 8,
+          image: net8
+      },
+      {
+          title: 9,
+          image: net9
+      },
+      {
+          title: 10,
+          image: net10
+      },
+      {
+          title: 11,
+          image: net11
+      },
+      {
+          title: 12,
+          image: net12
+      },
+      {
+          title: 13,
+          image: net13
+      },
+      {
+          title: 14,
+          image: net14
+      },
+      {
+          title: 15,
+          image: net15
+      },
+      {
+          title: 16,
+          image: net16
+      },
+      {
+          title: 17,
+          image: net17
+      },
+      {
+          title: 18,
+          image: net18
+      },
+      {
+          title: 19,
+          image: net19
+      },
+      {
+          title: 20,
+          image: net20
+      },
+      {
+          title: 21,
+          image: net21
+      },
+      {
+          title: 22,
+          image: net22
+      },
+      {
+          title: 23,
+          image: net23
+      },
+      {
+          title: 24,
+          image: net24
+      },
+      {
+          title: 25,
+          image: net25
+      },
+      {
+          title: 26,
+          image: net26
+      },
+      {
+          title: 27,
+          image: net27
+      },
+      {
+          title: 28,
+          image: net28
+      },
+      {
+          title: 29,
+          image: net29
+      },
+      {
+          title: 30,
+          image: net30
+      },
+      {
+          title: 31,
+          image: net31
+      },
+      {
+          title: 32,
+          image: net32
+      },
+      {
+          title: 33,
+          image: net33
+      },
+      {
+          title: 34,
+          image: net34
+      }
     ],
   },
   Testimonials: {
@@ -209,8 +337,8 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
+    image1: null,
+    image2: null,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
